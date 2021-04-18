@@ -118,7 +118,9 @@ img {
   margin-right: auto;
 }
 .section {
-  margin-top: 94px;
+  /* margin-top: 94px; */
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* ------------------- */
 
@@ -257,7 +259,9 @@ img {
 }
 
 /* Секция услуг */
-
+.services {
+  margin-top: -94px;
+}
 .services-list {
   display: flex;
   margin-top: 50px;
@@ -269,8 +273,8 @@ img {
 /* Секция команды */
 
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  /* padding-top: 94px; */
+  /* padding-bottom: 94px; */
   background-color: var(--team-bg-color);
 }
 .team-list {
@@ -350,7 +354,7 @@ img {
   flex-wrap: wrap;
   margin-right: calc(-1 * var(--portfolio-list-gap));
   margin-top: calc(-1 * var(--portfolio-list-gap));
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .portfolio-list-item {
   flex-basis: calc((100% - var(--portfolio-list-gap) * var(--portfolio-list-items)) / var(--portfolio-list-items));
