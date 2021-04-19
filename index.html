@@ -18,14 +18,14 @@
         <nav class="nav">
           <a class="link logo" href="./index.html"><span>Web</span>Studio</a>
           <ul class="menu list">
-            <li class="menu-item"><a class="link nav-item active-page" href="./index.html">Студия</a></li>
-            <li class="menu-item"><a class="link nav-item" href="./portfolio.html">Портфолио</a></li>
-            <li class="menu-item"><a class="link nav-item" href="">Контакты</a></li>
+            <li class="menu-item"><a class="link menu-link active-page" href="./index.html">Студия</a></li>
+            <li class="menu-item"><a class="link menu-link" href="./portfolio.html">Портфолио</a></li>
+            <li class="menu-item"><a class="link menu-link" href="">Контакты</a></li>
           </ul>
         </nav>
         <ul class="contacts list">
-          <li class="contacts-item"><a class="link contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="contacts-item"><a class="link contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+          <li class="contacts-item"><a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contacts-item"><a class="link contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -35,9 +35,10 @@
         <h1 class="title main-title">Эффективные решения для вашего бизнеса</h1>
         <button class="main-btn" type="button">Заказать услугу</button>
       </section>
+
       <!-- Секция особенности -->
-      <div class="container">
-        <section class="section">
+      <section class="section">
+        <div class="container">
           <h2 class="hiden-title">Особенности</h2>
           <ul class="features-list list">
             <li class="features-list-item">
@@ -57,11 +58,12 @@
               <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
+
       <!-- Секция услуг -->
-      <div class="container">
-        <section class="section services">
+      <section class="section services">
+        <div class="container">
           <h2 class="title services-title">Чем мы занимаемся</h2>
           <ul class="services-list list">
             <li class="services-list-item">
@@ -74,38 +76,48 @@
               <img src="./images/boxes/box33.jpg" width="370" height="294" alt="Женщина создает дизайн с помощью планшета" />
             </li>
           </ul>
-        </section>
-      </div>
-      <!-- секция команды -->
+        </div>
+      </section>
 
+      <!-- секция команды -->
       <section class="team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-list-item">
               <img src="./images/team/img11.jpg" width="270" alt="Игорь Демьяненко" />
-              <h3 class="title team-title">Игорь Демьяненко</h3>
-              <p class="team-text" lang="en">Product Designer</p>
+              <div class="team-list-item-content">
+                <h3 class="title team-title">Игорь Демьяненко</h3>
+                <p class="team-text" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/team/img12.jpg" width="270" alt="Ольга Репина" />
-              <h3 class="title team-title">Ольга Репина</h3>
-              <p class="team-text" lang="en">Frontend Developer</p>
+              <div class="team-list-item-content">
+                <h3 class="title team-title">Ольга Репина</h3>
+                <p class="team-text" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/team/img13.jpg" width="270" alt="Николай Тарасов" />
-              <h3 class="title team-title">Николай Тарасов</h3>
-              <p class="team-text" lang="en">Marketing</p>
+              <div class="team-list-item-content">
+                <h3 class="title team-title">Николай Тарасов</h3>
+                <p class="team-text" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-list-item">
               <img src="./images/team/img14.jpg" width="270" alt="Михаил Ермаков" />
-              <h3 class="title team-title">Михаил Ермаков</h3>
-              <p class="team-text" lang="en">UI Designer</p>
+              <div class="team-list-item-content">
+                <h3 class="title team-title">Михаил Ермаков</h3>
+                <p class="team-text" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
       </section>
     </main>
+
+    <!-- Футер -->
     <footer class="footer">
       <!-- контакты -->
       <div class="container">
