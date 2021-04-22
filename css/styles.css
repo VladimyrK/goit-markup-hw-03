@@ -55,7 +55,7 @@ img {
   max-width: 100%;
   height: auto;
 }
-.hiden-title {
+.visualy-hiden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -266,9 +266,11 @@ img {
 .services {
   padding-top: 0;
 }
+.services-title {
+  margin-bottom: 50px;
+}
 .services-list {
   display: flex;
-  margin-top: 50px;
 }
 .services-list-item:not(:last-child) {
   margin-right: 30px;
@@ -278,6 +280,9 @@ img {
 
 .team {
   background-color: var(--team-bg-color);
+}
+.team-title {
+  margin-bottom: 50px;
 }
 .team-list {
   display: flex;
@@ -295,8 +300,10 @@ img {
   padding-right: 24px;
   padding-left: 24px;
   text-align: center;
+
+  background-color: var(--primary-bg-color);
 }
-.team-title {
+.team-content-title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -358,14 +365,11 @@ img {
   flex-wrap: wrap;
   margin-right: calc(-1 * var(--portfolio-list-gap));
   margin-top: calc(-1 * var(--portfolio-list-gap));
-  /* margin-bottom: 94px; */
 }
 .portfolio-list-item {
   flex-basis: calc((100% - var(--portfolio-list-gap) * var(--portfolio-list-items)) / var(--portfolio-list-items));
   margin-right: var(--portfolio-list-gap);
   margin-top: var(--portfolio-list-gap);
-
-  /* border: 1px solid #eeeeee; */
 }
 .portfolio-list-title {
   margin-bottom: 4px;
@@ -391,5 +395,6 @@ img {
   padding-right: 24px;
   padding-bottom: 20px;
   border: 1px solid #eeeeee;
-  border-top: 0;
+
+  background-color: var(--primary-bg-color);
 }
